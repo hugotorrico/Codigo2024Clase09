@@ -15,8 +15,6 @@ Console.WriteLine( poligono.CalcularArea(20));
 Console.WriteLine("El área del rectángulo es");
 Console.WriteLine( poligono.CalcularArea(20, 10));
 
-//ATriangulo= (Base*Altura) /2
-Console.WriteLine("El área del triángulo es");
-Console.WriteLine(poligono.CalcularArea(20, 10,8));
+
 
 Console.Read();

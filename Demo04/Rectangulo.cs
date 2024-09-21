@@ -11,9 +11,13 @@ namespace Demo04
         public double Base { get; set; }
         public double Altura { get; set; }
 
-        public void CalcularArea()
+        public override void CalcularArea()
         {
-            Area = Base*Altura ;
+            Area = Base * Altura;
+        }
+        public override void CalcularPerimetro()
+        {
+            Perimetro = 2 * (Base + Altura);
         }
     }
 }

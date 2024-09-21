@@ -10,10 +10,9 @@ namespace Demo04
     {
         public double Base { get; set; }
         public double Altura { get; set; }
-
-        public void CalcularArea()
+        public override void CalcularArea()
         {
-            Area = (Base * Altura)/2;
+            Area = (Base * Altura) / 2;
         }
     }
 }
