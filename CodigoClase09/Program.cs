@@ -1,5 +1,7 @@
 ﻿
 using CodigoClase09;
+using CodigoClase09.Matematicas;
+
 
 Console.WriteLine("Bienvenido a CODIGO");
 
@@ -38,4 +40,15 @@ Estudiante estudiante = new Estudiante
 estudiante.MostrarInformacionCompleta();
 
 
+//Son clases públicas
+Cuadrado cuadrado = new Cuadrado();
+Triangulo triangulo = new Triangulo();
+
+//Clase Internal
+Poligono poligono = new Poligono();
+
+
+cuadrado.CalcularArea();
+triangulo.CalcularArea();
+poligono.CalcularArea();
 Console.Read();
